@@ -1,0 +1,20 @@
+﻿global using  Microsoft.AspNetCore;
+global using  Microsoft.AspNetCore.Mvc;
+global using  Microsoft.IdentityModel.Tokens;
+global using  OpenIddict.Abstractions;
+global using  OpenIddict.Server.AspNetCore;
+global using  System.Security.Claims;
+global using  static OpenIddict.Abstractions.OpenIddictConstants;
+global using  AppSetting;
+global using  Extensions;
+global using  Microsoft.AspNetCore.HttpOverrides;
+global using  Microsoft.EntityFrameworkCore;
+global using  Microsoft.OpenApi.Models;
+global using  OrmModel.OpenIddictApiServer;
+global using OpenIddictApi;
+global using Dto;
+global using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+global using Microsoft.AspNetCore.Authorization;
+global using Polly;
+global using System.Net;
+
